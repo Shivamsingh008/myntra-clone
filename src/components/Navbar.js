@@ -11,9 +11,9 @@ function Navbar() {
   const [menu, setmenu] = useState(false);
 
   return (
-    <div className="bg-red-500 shadow-lg w-[1443px]  ">
+    <div className="bg-red-500 shadow-lg w-[100%]  ">
       <div className="flex items-center justify-between p-2 w-full ">
-        <div className=" flex items-center w-1">
+        <div >
           <img src={logo} className="w-18 h-16 ml-5" alt="logo" />
         </div>
 
