@@ -11,7 +11,7 @@ function Navbar() {
   const [menu, setmenu] = useState(false);
 
   return (
-    <div className="bg-white shadow-lg  ">
+    <div className="bg-red-500 shadow-lg w-full  ">
       <div className="flex items-center justify-between p-2 w-full ">
         <div>
           <img src={logo} className="w-18 h-16 ml-5" alt="logo" />
@@ -30,7 +30,7 @@ function Navbar() {
         </div>
         }
         <div className="md:static absolute bg-white  md:min-h-fit min-h-[30vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-9 ">
-          <div className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-6">
+          <div className="flex md:flex-row sm:flex-row flex-col md:items-center md:gap-[4vw] gap-6">
             <h1 className="ml-6">MEN</h1>
             <h1 className="ml-6">WOMEN</h1>
             <h1 className="ml-6">KIDS</h1>
