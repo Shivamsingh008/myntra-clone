@@ -26,7 +26,7 @@ const Banner = () => {
 
 
   return (
-    <div className='mt-[30px] md:text-sm   '>
+    <div className='mt-[30px] S md:text-sm md:w-full  w-[472px]'>
     
     <Slider {...settings}>
   <div >

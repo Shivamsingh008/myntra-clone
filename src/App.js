@@ -5,10 +5,11 @@ import Banner from './components/Banner'
 import Herosection from './components/herosection/Herosection'
 import Cards from './components/herosection/Cards'
 
+
 const App = () => {
   return (
     <>
-    <Navbar/>
+    <Navbar  />
     <Banner />
     <Herosection/>
     <Cards/>

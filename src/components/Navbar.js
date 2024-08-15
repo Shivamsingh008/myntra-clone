@@ -11,14 +11,14 @@ function Navbar() {
   const [menu, setmenu] = useState(false);
 
   return (
-    <div className="bg-red-500 shadow-lg w-[100%]  ">
-      <div className="flex items-center justify-between p-2 w-full ">
-        <div >
-          <img src={logo} className="w-18 h-16 ml-5" alt="logo" />
+    <div className="bg-white shadow-lg  md:w-full w-[472px]">
+      <div className="flex items-center justify-between p-2  w-full ">
+        <div>
+          <img src={logo} className="md:w-16 md:h-16 w-[200px] h-[60px] md:ml-5 ml-1" alt="logo" />
         </div>
 
         {
-          menu && <div className="md:static absolute bg-red-500  md:min-h-fit min-h-[30vh] left-0 top-[7%] md:w-auto w-full flex items-center px-9 ">
+          menu && <div className="md:static absolute  bg-red-500  md:min-h-fit min-h-[30vh] left-0 top-[10%] md:w-auto w-[425px] flex items-center px-9 ">
           <div className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-6">
             <h1 className="ml-6">MEN</h1>
             <h1 className="ml-6">WOMEN</h1>
@@ -40,17 +40,17 @@ function Navbar() {
           </div>
         </div>
 
-        <div className="border border-gray-100 flex items-center bg-gray-100 w-64 h-10 ml-6 md:ml-4">
+        <div className="border border-gray-100 flex items-center bg-gray-100 w-64 h-10 ml-8  md:ml-4">
           <IoSearch className="h-8 w-6 ml-3" />
           <input
             type="text"
-            className="bg-gray-100  text-gray-900 font-normal outline-none text-sm rounded-sm block w-full p-2.5 text-[12px] items-center"
+            className="bg-gray-100  text-gray-900 font-normal outline-none sm:text-sm rounded-sm block w-full p-2.5 text-[12px] items-center"
             placeholder="Search for products,Brand and more"
             required
           />
         </div>
 
-        <div className="flex items-center ml-4 mr-2 space-x-4 text-sm">
+        <div className="flex items-center md:ml-4 justify-between  mr-[-5px] space-x-4 text-sm">
           <div className="flex items-center">
             <MdOutlinePersonOutline className="h-5 w-5" />
             <h1>Profile</h1>
@@ -76,6 +76,7 @@ function Navbar() {
             />
           </div>
         }
+        
           
         </div>
       </div>
