@@ -13,8 +13,8 @@ import {
 
 function Cards() {
   return (
-    <div className='md:p-10  pt-6 pl-6  md:gap-10 sm:gap-40 md:grid-cols-6 sm:grid-cols-4 grid-cols-2 gap-10 p-2  items-center grid md:w-full w-[470px] h-20'>
-<div className='grid border border-gray-700 h-80 w-48 '>
+    <div className='md:p-10  pt-6 pl-2  md:gap-10 sm:gap-40 md:grid-cols-6 sm:grid-cols-4 grid-cols-2 gap-10 p-2 pr-8  items-center grid md:w-full w-[382px] h-12'>
+<div className='grid border border-gray-700 md:h-80 md:w-48 w-[175px] h-[300px] '>
   
     <img className='h-[215px] w-[210px]' src={prod5} alt="" />
     
@@ -24,7 +24,7 @@ function Cards() {
       <h1 className='text-lg'>Shop Now</h1>
     </div>
 </div>
-<div className='grid border border-gray-700 h-80 w-48 '>
+<div className='grid border border-gray-700 md:h-80 md:w-48 w-[175px] h-[300px]'>
   
   <img className='h-[215px] w-[210px]' src={prod1} alt="" />
   
@@ -36,7 +36,7 @@ function Cards() {
   </div>
 </div>
 
-<div className='grid border border-gray-700 h-80 w-48 '>
+<div className='grid border border-gray-700 md:h-80 md:w-48 w-[175px] h-[300px]'>
   
     <img className='h-[215px] w-[210px]' src={prod2} alt="" />
     
@@ -46,7 +46,7 @@ function Cards() {
       <h1 className='text-lg'>Shop Now</h1>
     </div>
 </div>
-<div className='grid border border-gray-700 h-80 w-48 '>
+<div className='grid border border-gray-700 md:h-80 md:w-48 w-[175px] h-[300px]'>
   
   <img className='h-[215px] w-[210px]' src={prod3} alt="" />
   
@@ -56,7 +56,7 @@ function Cards() {
     <h1 className='text-lg'>Shop Now</h1>
   </div>
 </div>
-<div className='grid border border-gray-700 h-80 w-48 '>
+<div className='grid border border-gray-700 md:h-80 md:w-48 w-[175px] h-[300px]'>
   
   <img className='h-[215px] w-[210px]' src={prod4} alt="" />
   
@@ -66,7 +66,7 @@ function Cards() {
     <h1 className='text-lg'>Shop Now</h1>
   </div>
 </div>
-<div className='grid border border-gray-700 h-80 w-48 '>
+<div className='grid border border-gray-700 md:h-80 md:w-48 w-[175px] h-[300px]'>
   
   <img className='h-[215px] w-[210px]' src={prod6} alt="" />
   
@@ -76,7 +76,7 @@ function Cards() {
     <h1 className='text-lg'>Shop Now</h1>
   </div>
 </div>
-<div className='grid border border-gray-700 h-80 w-48 '>
+<div className='grid border border-gray-700 md:h-80 md:w-48 w-[175px] h-[300px]'>
   
   <img className='h-[215px] w-[210px]' src={prod7} alt="" />
   
@@ -86,7 +86,7 @@ function Cards() {
     <h1 className='text-lg'>Shop Now</h1>
   </div>
 </div>
-<div className='grid border border-gray-700 h-80 w-48 '>
+<div className='grid border border-gray-700 md:h-80 md:w-48 w-[175px] h-[300px] '>
   
   <img className='h-[215px] w-[210px]' src={prod8} alt="" />
   
@@ -98,7 +98,7 @@ function Cards() {
 </div>
 
 
-<div className='grid border border-gray-700 h-80 w-48 '>
+<div className='grid border border-gray-700 md:h-80 md:w-48 w-[175px] h-[300px] '>
   
     <img className='h-[215px] w-[210px]' src={prod5} alt="" />
     
@@ -108,7 +108,7 @@ function Cards() {
       <h1 className='text-lg'>Shop Now</h1>
     </div>
 </div>
-<div className='grid border border-gray-700 h-80 w-48 '>
+<div className='grid border border-gray-700 md:h-80 md:w-48 w-[175px] h-[300px] '>
   
   <img className='h-[215px] w-[210px]' src={prod1} alt="" />
   
@@ -120,7 +120,7 @@ function Cards() {
   </div>
 </div>
 
-<div className='grid border border-gray-700 h-80 w-48 '>
+<div className='grid border border-gray-700 md:h-80 md:w-48 w-[175px] h-[300px] '>
   
     <img className='h-[215px] w-[210px]' src={prod2} alt="" />
     
@@ -130,7 +130,7 @@ function Cards() {
       <h1 className='text-lg'>Shop Now</h1>
     </div>
 </div>
-<div className='grid border border-gray-700 h-80 w-48 '>
+<div className='grid border border-gray-700 md:h-80 md:w-48 w-[175px] h-[300px] '>
   
   <img className='h-[215px] w-[210px]' src={prod3} alt="" />
   
@@ -140,7 +140,7 @@ function Cards() {
     <h1 className='text-lg'>Shop Now</h1>
   </div>
 </div>
-<div className='grid border border-gray-700 h-80 w-48 '>
+<div className='grid border border-gray-700 md:h-80 md:w-48 w-[175px] h-[300px] '>
   
   <img className='h-[215px] w-[210px]' src={prod4} alt="" />
   
@@ -150,7 +150,7 @@ function Cards() {
     <h1 className='text-lg'>Shop Now</h1>
   </div>
 </div>
-<div className='grid border border-gray-700 h-80 w-48 '>
+<div className='grid border border-gray-700 md:h-80 md:w-48 w-[175px] h-[300px] '>
   
   <img className='h-[215px] w-[210px]' src={prod6} alt="" />
   
@@ -160,7 +160,7 @@ function Cards() {
     <h1 className='text-lg'>Shop Now</h1>
   </div>
 </div>
-<div className='grid border border-gray-700 h-80 w-48 '>
+<div className='grid border border-gray-700 md:h-80 md:w-48 w-[175px] h-[300px] '>
   
   <img className='h-[215px] w-[210px]' src={prod7} alt="" />
   
@@ -170,7 +170,7 @@ function Cards() {
     <h1 className='text-lg'>Shop Now</h1>
   </div>
 </div>
-<div className='grid border border-gray-700 h-80 w-48 '>
+<div className='grid border border-gray-700 md:h-80 md:w-48 w-[175px] h-[300px] '>
   
   <img className='h-[215px] w-[210px]' src={prod8} alt="" />
   

@@ -8,12 +8,12 @@ import Cards from './components/herosection/Cards'
 
 const App = () => {
   return (
-    <>
+    <div className='w-[382px]'>
     <Navbar  />
     <Banner />
     <Herosection/>
     <Cards/>
-    </>
+    </div>
   )
 }
 

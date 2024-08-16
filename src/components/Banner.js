@@ -26,9 +26,9 @@ const Banner = () => {
 
 
   return (
-    <div className='mt-[30px] S md:text-sm md:w-full  w-[472px]'>
+    <div className='mt-[30px] S md:text-sm md:w-full  w-[382px]'>
     
-    <Slider {...settings}>
+    <Slider  {...settings}>
   <div >
     <img  className="w-full md:h-[460px] h-[320px]  border " src={banner01} alt="banner01" />
   </div>

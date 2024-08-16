@@ -11,11 +11,11 @@ function Navbar() {
   const [menu, setmenu] = useState(false);
 
   return (
-    <div className="bg-white shadow-lg  md:w-full w-[472px]">
+    <div className="bg-white shadow-lg  md:w-full ">
       <div className="flex items-center justify-between p-2  w-full ">
         <div>
-          <img src={logo} className="md:w-16 md:h-16 w-[200px] h-[60px] md:ml-5 ml-1" alt="logo" />
-        </div>
+          <img src={logo} className=" w-[800px] h-[60px]" alt="logo" />
+         </div>  {/* //md:w-16 md:h-16 w-[400px] h-[60px] md:ml-5 ml-1 */}
 
         {
           menu && <div className="md:static absolute  bg-red-500  md:min-h-fit min-h-[30vh] left-0 top-[10%] md:w-auto w-[425px] flex items-center px-9 ">
@@ -40,7 +40,7 @@ function Navbar() {
           </div>
         </div>
 
-        <div className="border border-gray-100 flex items-center bg-gray-100 w-64 h-10 ml-8  md:ml-4">
+        <div className="border border-gray-100 flex items-center bg-gray-100 w-64 h-10 ml-2  md:ml-4">
           <IoSearch className="h-8 w-6 ml-3" />
           <input
             type="text"
@@ -50,7 +50,7 @@ function Navbar() {
           />
         </div>
 
-        <div className="flex items-center md:ml-4 justify-between  mr-[-5px] space-x-4 text-sm">
+        <div className="flex items-center md:ml-4 justify-between  mr-[-5px] space-x-2 p-1 text-sm">
           <div className="flex items-center">
             <MdOutlinePersonOutline className="h-5 w-5" />
             <h1>Profile</h1>
