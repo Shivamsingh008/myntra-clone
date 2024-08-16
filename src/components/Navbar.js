@@ -14,11 +14,11 @@ function Navbar() {
     <div className="bg-white shadow-lg  md:w-full ">
       <div className="flex items-center justify-between p-2  w-full ">
         <div>
-          <img src={logo} className=" w-[800px] h-[60px]" alt="logo" />
+          <img src={logo} className="md:w-[90px] md:h-[60px] w-[800px] h-[60px] md:ml-2 ml-1 " alt="logo" />
          </div>  {/* //md:w-16 md:h-16 w-[400px] h-[60px] md:ml-5 ml-1 */}
 
         {
-          menu && <div className="md:static absolute  bg-red-500  md:min-h-fit min-h-[30vh] left-0 top-[10%] md:w-auto w-[425px] flex items-center px-9 ">
+          menu && <div className="md:static absolute z-20 bg-gray-200  md:min-h-fit min-h-[30vh] left-0 top-[10%] md:w-auto w-[382px] flex items-center px-2 ">
           <div className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-6">
             <h1 className="ml-6">MEN</h1>
             <h1 className="ml-6">WOMEN</h1>
@@ -29,14 +29,14 @@ function Navbar() {
           </div>
         </div>
         }
-        <div className="md:static absolute bg-white  md:min-h-fit min-h-[30vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-9 ">
-          <div className="flex md:flex-row sm:flex-row flex-col md:items-center md:gap-[4vw] gap-6">
-            <h1 className="ml-6">MEN</h1>
-            <h1 className="ml-6">WOMEN</h1>
-            <h1 className="ml-6">KIDS</h1>
-            <h1 className="ml-6">HOME & LIVING</h1>
-            <h1 className="ml-6">BEAUTY</h1>
-            <h1 className="ml-6">STUDIO</h1>
+        <div className="md:static absolute bg-white  md:min-h-fit min-h-[30vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-2 ">
+          <div className="flex md:flex-row sm:flex-row flex-col md:items-center md:gap-[2vw] gap-6">
+            <h1 className="ml-2">MEN</h1>
+            <h1 className="ml-4">WOMEN</h1>
+            <h1 className="ml-4">KIDS</h1>
+            <h1 className="ml-4 text-sm">HOME & LIVING</h1>
+            <h1 className="ml-2">BEAUTY</h1>
+            <h1 className="ml-2">STUDIO</h1>
           </div>
         </div>
 

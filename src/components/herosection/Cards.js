@@ -13,7 +13,7 @@ import {
 
 function Cards() {
   return (
-    <div className='md:p-10  pt-6 pl-2  md:gap-10 sm:gap-40 md:grid-cols-6 sm:grid-cols-4 grid-cols-2 gap-10 p-2 pr-8  items-center grid md:w-full w-[382px] h-12'>
+    <div className='md:p-4  pt-8 pl-2  md:gap-20 sm:gap-40 lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-4 grid-cols-2 gap-10 p-2 pr-8  items-center grid md:w-full w-[382px] h-12'>
 <div className='grid border border-gray-700 md:h-80 md:w-48 w-[175px] h-[300px] '>
   
     <img className='h-[215px] w-[210px]' src={prod5} alt="" />
