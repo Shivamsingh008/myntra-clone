@@ -44,7 +44,7 @@ function Navbar() {
           <IoSearch className="h-8 ml-3" />
           <input
             type="text"
-            className="  text-gray-900   rounded-sm  text-[.8rem] flex flex-wrap w-full items-center"
+            className="outline-none rounded-sm  text-[.8rem] flex flex-wrap w-full items-center"
             placeholder="Search for products, Brand and more"
             required
           />
