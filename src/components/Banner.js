@@ -30,13 +30,13 @@ const Banner = () => {
     
     <Slider  {...settings}>
   <div >
-    <img  className="w-full md:h-[460px] h-[320px]  border " src={banner01} alt="banner01" />
+    <img  className="aspect-auto w-[100%] " src={banner01} alt="banner01" />
   </div>
   <div>
-    <img className="w-full md:h-[460px] h-[320px]  border " src={banner02} alt="banner02" />
+    <img className="aspect-auto w-[100%] " src={banner02} alt="banner02" />
   </div>
   <div>
-  <img className="w-full md:h-[460px] h-[320px] border " src={banner03} alt="banner03" />
+  <img className="aspect-auto w-[100%] " src={banner03} alt="banner03" />
 </div>
 
 </Slider>
