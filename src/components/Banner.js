@@ -26,7 +26,7 @@ const Banner = () => {
 
 
   return (
-    <div className='mt-[30px] S md:text-sm md:w-full  w-[382px]'>
+    <div className='mt-[30px] S md:text-sm aspect-auto'>
     
     <Slider  {...settings}>
   <div >

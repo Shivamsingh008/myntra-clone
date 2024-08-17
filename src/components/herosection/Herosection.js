@@ -9,7 +9,7 @@ import {
 
 function Herosection() {
   return (
-    <div className='mt-8 md:p-2 p-1  md:w-full w-[382px]'>
+    <div className='mt-8 md:p-2 p-1  aspect-auto'>
       <img src={imgbanner2} alt="imgbanner2" />
     
     <img className='m-auto items-center' src={imgbanner3} alt="imgbanner3" />

@@ -11,10 +11,10 @@ function Navbar() {
   const [menu, setmenu] = useState(false);
 
   return (
-    <div className="bg-white shadow-lg  md:w-full ">
-      <div className="flex items-center justify-between p-2  w-full ">
+    <div className="bg-white shadow-lg">
+      <div className="flex items-center justify-evenly ">
         <div>
-          <img src={logo} className="md:w-[90px] md:h-[60px] w-[800px] h-[60px] md:ml-2 ml-1 " alt="logo" />
+          <img src={logo} className="w-[45px] aspect-auto" alt="logo" />
          </div>  {/* //md:w-16 md:h-16 w-[400px] h-[60px] md:ml-5 ml-1 */}
 
         {
@@ -29,50 +29,50 @@ function Navbar() {
           </div>
         </div>
         }
-        <div className="md:static absolute bg-white  md:min-h-fit min-h-[30vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-2 ">
-          <div className="flex md:flex-row sm:flex-row flex-col md:items-center md:gap-[2vw] gap-6">
-            <h1 className="ml-2">MEN</h1>
-            <h1 className="ml-4">WOMEN</h1>
-            <h1 className="ml-4">KIDS</h1>
-            <h1 className="ml-4 text-sm">HOME & LIVING</h1>
-            <h1 className="ml-2">BEAUTY</h1>
-            <h1 className="ml-2">STUDIO</h1>
+        <div className="md:static absolute bg-white  md:min-h-fit min-h-[30vh] left-0 top-[-100%] flex items-center  ">
+          <div className="flex md:flex-row sm:flex-row flex-col md:items-center ">
+            <h1 className="m-3">MEN</h1>
+            <h1 className="m-3">WOMEN</h1>
+            <h1 className="m-3">KIDS</h1>
+            <h1 className="m-3">HOME & LIVING</h1>
+            <h1 className="m-3">BEAUTY</h1>
+            <h1 className="m-3">STUDIO</h1>
           </div>
         </div>
 
-        <div className="border border-gray-100 flex items-center bg-gray-100 w-64 h-10 ml-2  md:ml-4">
-          <IoSearch className="h-8 w-6 ml-3" />
+        <div className="border border-gray-500 flex items-center w-[20vw] ">
+          <IoSearch className="h-8 ml-3" />
           <input
             type="text"
-            className="bg-gray-100  text-gray-900 font-normal outline-none sm:text-sm rounded-sm block w-full p-2.5 text-[12px] items-center"
-            placeholder="Search for products,Brand and more"
+            className="  text-gray-900   rounded-sm  text-[.8rem] flex flex-wrap w-full items-center"
+            placeholder="Search for products, Brand and more"
             required
           />
         </div>
 
-        <div className="flex items-center md:ml-4 justify-between  mr-[-5px] space-x-2 p-1 text-sm">
-          <div className="flex items-center">
-            <MdOutlinePersonOutline className="h-5 w-5" />
+        <div className="flex items-center  text-sm">
+          <div className="flex items-center m-4">
+            <MdOutlinePersonOutline className="h-5 " />
             <h1>Profile</h1>
           </div>
-          <div className="flex items-center">
-            <GrFavorite className="h-4 w-6 " />
+          <div className="flex items-center m-4">
+            <GrFavorite className="h-4  " />
             <h1>Wishlist</h1>
           </div>
-          <div className="flex items-center">
-            <HiOutlineShoppingBag className="h-4 w-4" />
+          <div className="flex items-center m-4">
+            <HiOutlineShoppingBag className="h-4 " />
             <h1>Bag</h1>
           </div>
         {
-          menu ? <div className="flex items-center gap-6 cursor-pointer md:hidden">
+          menu ? <div className="flex items-center cursor-pointer md:hidden">
             <IoClose
               onClick={() => setmenu(!menu)}
-              className="ml-4 md:ml-1 text-[40px]"
+              className=" text-[40px]"
             />
-          </div> : <div className="flex items-center gap-6 cursor-pointer md:hidden">
+          </div> : <div className="flex items-center cursor-pointer md:hidden">
             <CgMenuRightAlt
               onClick={() => setmenu(!menu)}
-              className="ml-4 md:ml-1 text-[40px]"
+              className=" text-[40px]"
             />
           </div>
         }
