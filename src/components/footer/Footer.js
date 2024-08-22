@@ -1,9 +1,10 @@
+
 import React from 'react'
 
 function Footer() {
   return (
-    <div>
-      
+    <div className='bg-gray-500 h-72'>
+       hi
     </div>
   )
 }
