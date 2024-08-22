@@ -9,23 +9,39 @@ import { IoClose } from "react-icons/io5";
 
 function Navbar() {
   const [menu, setmenu] = useState(false);
+  
 
   return (
     <div className="bg-white shadow-lg">
-      <div className="flex items-center justify-evenly ">
+      <div className="flex items-center md:justify-evenly justify-around">
         <div>
           <img src={logo} className="w-[45px] aspect-auto" alt="logo" />
          </div>  {/* //md:w-16 md:h-16 w-[400px] h-[60px] md:ml-5 ml-1 */}
 
         {
-          menu && <div className="md:static absolute z-20 bg-gray-200  md:min-h-fit min-h-[30vh] left-0 top-[10%] md:w-auto w-[382px] flex items-center px-2 ">
+          menu && <div className="md:static absolute z-20 bg-gray-200  md:min-h-fit min-h-[40vh] left-0 top-[7%] md:w-auto w-[382px] flex items-center px-2 ">
           <div className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-6">
-            <h1 className="ml-6">MEN</h1>
+            <h1 className="ml-6 mt-4">MEN</h1>
             <h1 className="ml-6">WOMEN</h1>
             <h1 className="ml-6">KIDS</h1>
             <h1 className="ml-6">HOME & LIVING</h1>
             <h1 className="ml-6">BEAUTY</h1>
             <h1 className="ml-6">STUDIO</h1>
+
+            <div className="flex items-center ml-6">
+            <MdOutlinePersonOutline className="h-5 " />
+            <h1>Profile</h1>
+          </div>
+          <div className="flex items-center ml-6">
+            <GrFavorite className="h-4  " />
+            <h1>Wishlist</h1>
+          </div>
+          <div className="flex items-center ml-6">
+            <HiOutlineShoppingBag className="h-4 " />
+            <h1>Bag</h1>
+          </div>
+
+
           </div>
         </div>
         }
@@ -37,21 +53,25 @@ function Navbar() {
             <h1 className="m-3">HOME & LIVING</h1>
             <h1 className="m-3">BEAUTY</h1>
             <h1 className="m-3">STUDIO</h1>
+            
           </div>
         </div>
 
-        <div className="border border-gray-500 flex items-center w-[20vw] ">
-          <IoSearch className="h-8 ml-3" />
+
+        <div className="border border-gray-500 flex items-center md:w-[20vw] w-[60vw] aspect-auto ">
+          <IoSearch className="h-8 ml-3 text-[20px]" />
           <input
             type="text"
-            className="outline-none rounded-sm  text-[.8rem] flex flex-wrap w-full items-center"
+            className="outline-none rounded-sm  text-[.8rem] flex flex-wrap w-full items-center ml-1"
             placeholder="Search for products, Brand and more"
             required
           />
         </div>
 
-        <div className="flex items-center  text-sm">
-          <div className="flex items-center m-4">
+        <div className="items-center  text-sm hidden md:block">
+        
+        <div className=" flex items-center  text-sm ">
+   <div className="flex items-center m-4">
             <MdOutlinePersonOutline className="h-5 " />
             <h1>Profile</h1>
           </div>
@@ -63,6 +83,13 @@ function Navbar() {
             <HiOutlineShoppingBag className="h-4 " />
             <h1>Bag</h1>
           </div>
+          </div>
+          
+          
+       
+        
+          
+        </div>
         {
           menu ? <div className="flex items-center cursor-pointer md:hidden">
             <IoClose
@@ -76,9 +103,7 @@ function Navbar() {
             />
           </div>
         }
-        
-          
-        </div>
+      
       </div>
     </div>
     // </div>
