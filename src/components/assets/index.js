@@ -14,6 +14,7 @@ import prod5 from '../assets/banner/prod5.jpg'
 import prod6 from "../assets/banner/prod6.jpg"
 import prod7 from "../assets/banner/prod7.jpg"
 import prod8 from "../assets/banner/prod8.jpg"
+import loginImg from "../images/loginImg.png"
 
 export {
     banner01,
@@ -32,5 +33,6 @@ export {
     prod6,
     prod7,
     prod8,
+    loginImg,
 };
 
